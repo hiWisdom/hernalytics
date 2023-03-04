@@ -1,0 +1,120 @@
+
+/*footer style*/
+.footer {
+    border: 2px solid none;
+    margin-top: 10%;
+}
+
+/*footer_set_1_container style*/
+.footer_set_1_container {
+    border: 2px solid none;
+    margin: 1.5%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+/*footer_set_1_container div a img style*/
+.footer_set_1_container .footer_sets img{
+    border: 2px solid none;
+}
+
+
+/*footer_set_1_container div ul style*/
+.footer_set_1_container .footer_sets ul{
+    border: 2px solid none;
+    width: fit-content;
+}
+
+/*footer_set_1_container div ul h3 style*/
+.footer_set_1_container .footer_sets ul h3{
+    border: 2px solid none;
+    width: fit-content;
+}
+
+
+/*footer_set_1_container div ul li style*/
+.footer_set_1_container .footer_sets ul li{
+    border: 2px solid none;
+    width: fit-content;
+    list-style-type: none;
+    margin-top: 15%;
+}
+
+/*footer_set_1_container div style*/
+.footer_set_1_container  div{
+    border: 2px solid none;
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+}
+
+
+.footer_sets .footer_div_1_set{
+    border: 2px solid none;
+    text-align: left;
+    margin-top: 10%;
+    display: block;
+    height: fit-content;
+}
+
+.footer_sets ul div {
+    border: 2px solid none;
+    display: flex;
+}
+
+.footer_sets ul div li{
+    border: 2px solid none;
+    margin: 1%;
+}
+
+.FaInstagram {
+    background-image: linear-gradient(#8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7);   
+}
+
+.FaTwitter {
+    background: #26a7de;   
+}
+
+.FaWhatsapp {
+    background: #25d366;   
+}
+
+
+
+.FaIconsContainer {
+    border-radius: 50%; 
+    padding: 2%;
+}
+
+.FaIcons {
+    color: white;
+    font-weight: 900;
+}
+
+
+  /**Media queries 600px begin*/
+  
+  @media screen and (max-width: 600px) {
+    
+    /* footer_set_1_container style*/
+    .footer_set_1_container {
+        border: 2px solid none;
+        flex-direction: column-reverse;
+        margin-bottom: 15vh;
+    }
+
+    /*footer_set_1_container div style*/
+    .footer_set_1_container  div{
+        border: 2px solid none;
+        flex-direction: column;
+    }
+
+    .footer_sets ul div {
+        border: 2px solid none;
+        flex-direction: row;
+    }
+
+
+  }

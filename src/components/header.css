@@ -1,0 +1,186 @@
+
+
+  /**App-header  begin*/
+.App-header {
+  border: 2px solid black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-image: url("../Image10.png");
+  background-size: cover;
+}
+
+
+
+  /**topnav begin*/
+.topnav {
+    overflow: hidden;
+    border: 2px solid none;
+    position: fixed;
+    margin-top: -43.5%;
+  }
+  
+  
+  /**topnav a  begin*/
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    font-weight:600;
+    text-align: center;
+    padding: 18px 27px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  
+  .topnav a.active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    /* material-theme/source/secondary */
+    background: #E5B805;
+    border-radius: 4px;
+  }
+  
+  
+  /**topnav .icon  begin*/
+  .topnav .icon {
+    display: none;
+  }
+
+  
+  /**.App-link begin*/
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  /**keyframes animations begin*/
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+  /**.App-logo begin*/
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+
+
+  /**dropdown begin*/
+  .dropdown {
+    display:block;
+    border: 2px solid red;
+    background-color: none;
+  }
+  
+  /**dropdown .dropdown-content begin*/
+  .dropdown .dropdown-content {
+    background-color: none;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid none;
+    margin-right: -100px;
+    display: none;
+    margin-top: -1%;
+    position: relative;
+  }  
+
+    /**.dropdown:hover .dropdown-content begin*/
+  .dropdown:hover .dropdown-content {
+    border: 2px solid blue;
+    display: block;
+
+  }
+
+  /**dropdown .dropdown-content li begin*/
+  .dropdown .dropdown-content li{
+    color: black;
+    list-style-type: none;
+    text-align: left;
+    border: 2px solid black;
+    background-color: #f9f9f9;
+    margin-left: -21%;
+    padding: 3% 10%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /**Media queries prefers-reduced-motion begin*/
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+
+
+  /**Media queries 600px begin*/
+  
+  @media screen and (max-width: 600px) {
+    
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .topnav.responsive {
+      position: relative;
+    }
+    
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: 
+      left;
+    }
+
+    .topnav {
+      overflow: hidden;
+      border: 2px solid red;
+      position: relative;
+      margin-top: unset;
+      transform: translateY(-450%);
+      width: 100%
+    }
+
+
+  }
+
+
+  
+
+  
