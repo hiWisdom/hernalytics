@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dd57c827b6e34405be5e",
-    "url": "/hernalytics/static/css/main.555a4430.chunk.css"
+    "revision": "7e8d354103b6f2a99f86",
+    "url": "/hernalytics/static/css/main.8bbf2f1d.chunk.css"
   },
   {
-    "revision": "dd57c827b6e34405be5e",
-    "url": "/hernalytics/static/js/main.dd57c827.chunk.js"
+    "revision": "7e8d354103b6f2a99f86",
+    "url": "/hernalytics/static/js/main.7e8d3541.chunk.js"
   },
   {
     "revision": "9ad960da41216fce2577",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/Image10.d536f86e.png"
   },
   {
-    "revision": "05812cf089d3d4901996372293be0823",
+    "revision": "5cd31a7e23d54cbc6d134d312db0019c",
     "url": "/hernalytics/index.html"
   }
 ];
