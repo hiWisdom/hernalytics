@@ -55,6 +55,29 @@ function Header() {
                 <i className="fa fa-bars"></i>
             </a>
         </div>
+
+
+        
+        <div className="content_container">
+
+                <div className="content_details">
+                  <h2>Get Real-Time updates on the Nigeria 2023 Elections</h2>
+                  <p>Become a more informed and active citizen by accessing and engaging on just the information you need on the coming elections</p>
+                </div>
+
+                <div className="content_button_container">
+
+                  <div className="content_button sign-up">
+                    <a>SIGN UP</a>
+                  </div>
+
+                  <div className="content_button">
+                    <a>GET ELECTIONS UPDATE</a>
+                  </div>
+                  
+                </div>
+        </div>
+
       </header>
 
     </div>
