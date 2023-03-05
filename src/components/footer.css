@@ -2,7 +2,7 @@
 /*footer style*/
 .footer {
     border: 2px solid none;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 /*footer_set_1_container style*/
@@ -102,7 +102,7 @@
     .footer_set_1_container {
         border: 2px solid none;
         flex-direction: column-reverse;
-        margin-bottom: 15vh;
+        margin-bottom: 10vh;
     }
 
     /*footer_set_1_container div style*/

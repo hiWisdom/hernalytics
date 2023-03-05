@@ -1,5 +1,6 @@
 import React from 'react';
 import './../App.css';
+import Image from './Get started.png';
 
 function Main() {
   return (
@@ -7,8 +8,12 @@ function Main() {
 
       <main className="">
             
-            Main Body
+            Main Body Jam
        
+       <div className="main_block main">
+        
+       </div>
+
       </main>
 
     </div>
