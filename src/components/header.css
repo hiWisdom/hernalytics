@@ -223,7 +223,8 @@
       text-align: left;
       color: white;
       flex-direction: column;
-      margin-left: 20vh;
+      margin-left: 2%;
+      margin-right: auto;
   
     }
   
@@ -241,7 +242,6 @@
       border: 2px solid none;
       display: flex;
       width: 75%;
-      justify-content: space-around;
     }
   
     .content_button {
@@ -260,6 +260,10 @@
       color: black;
       border: 2px solid #ECB700;
       background: #ECB700;
+    }
+
+    .get-election-update {
+      margin-left: 1.5%;
     }
 
   }

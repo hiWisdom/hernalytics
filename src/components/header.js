@@ -71,7 +71,7 @@ function Header() {
                     <a>SIGN UP</a>
                   </div>
 
-                  <div className="content_button">
+                  <div className="content_button get-election-update">
                     <a>GET ELECTIONS UPDATE</a>
                   </div>
                   

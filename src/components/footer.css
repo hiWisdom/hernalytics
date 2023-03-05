@@ -116,5 +116,11 @@
         flex-direction: row;
     }
 
+    .footer_div_1_set {
+        border: 2px solid none;
+        width: fit-content;
+        margin-left: 7.5%;
+    }
+
 
   }
