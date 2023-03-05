@@ -1,21 +1,27 @@
 import React from 'react';
 import './../App.css';
 import './main.css';
-import Image from './Countdown frame.png';
+import Image1 from './Countdown frame.png';
+import Image2 from './Get started.png';
 
 function Main() {
   return (
     <div className="App">
 
       <main className="">
-            <br/>
-            <br/>
+        
+      <br/>
+      <br/>
        
-       <div className="main_block main">
-        <img src={Image} className="countDownImage"/>
+       <div className="main_block main1">
+        <img src={Image1} className="countDownImage"/>
        </div>
 
-       <div className="main1">
+      <br/>
+      <br/>
+
+       <div className="main_block main2">
+        <img src={Image2} className="countDownImage"/>
        </div>
 
       </main>
