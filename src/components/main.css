@@ -1,4 +1,338 @@
 
+.App {
+    background: #EDFCFF;
+}
+
+
+.main_block_container {
+    border: 2px solid none;
+    display: flex;
+}
+
+.main_block_content_container {
+    border: 2px solid none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.main_block_content {
+    border: 2px solid none
+}
+
+.main_block_content1 {
+    border: 2px solid none;
+    color: black;
+    margin: 24px 0px 381px 120px;
+}
+
+/*main_block_content1_ style*/
+.main_block_content1_ {
+    border: 2px solid none;
+    padding: 2%;
+    margin: 2%;
+}
+
+/*main_block_content1_title style*/
+.main_block_content1_title {
+    border: 2px solid none;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #006A76;
+    width: fit-content;
+}
+
+.main_block_content1_B .main_block_content1_title {
+    color: #00344D;
+}
+
+/*main_block_content1_paragraph style*/
+.main_block_content1_paragraph {
+    border: 2px solid none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 26px;
+    color: #191C1D;
+    line-height: 38px;
+    width: 371px;
+}
+
+/*main_block_content1_button style*/ 
+.main_block_content1_button {
+    border: #191C1D 2px solid;
+    padding: 5%;
+    width: 210px;
+    border-radius: 10rem;
+}
+
+
+/*main_block_content1_button1 style*/
+.main_block_content1_button1 {
+    border: 2px solid #ECB700;
+}
+
+/*main_block_content1_button1 style a*/
+.main_block_content1_button1 a {
+    color:  #ECB700;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+
+/*main_block_content1_button2 style*/
+.main_block_content1_button2 {
+    border: 2px solid #006A76;
+}
+
+/*main_block_content1_button2 style a*/
+.main_block_content1_button2 a {
+    color:  #006A76;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main three*/
+
+.main_block_content2 {
+    border: 2px solid none;
+    color: black;
+    margin: 104px 0px 381px 120px;
+}
+
+/*main_block_content2_ style*/
+.main_block_content2_ {
+    border: 2px solid none;
+    padding: 2%;
+    margin: 2%;
+}
+
+/*main_block_content2_title style*/
+.main_block_content2_title {
+    border: 2px solid none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    color: #23BCCF;
+    width: fit-content;
+}
+
+.main_block_content2_B .main_block_content2_title {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 403px;
+}
+
+/*main_block_content2_paragraph style*/
+.main_block_content2_paragraph {
+    border: 2px solid none;
+    text-align: left;
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    line-height: 38px;
+    width: 444px;
+}
+
+/*main_block_content2_button style*/ 
+.main_block_content2_button {
+    border: #191C1D 2px solid;
+    padding: 3% 7.5%;
+    width: 215px;
+    border-radius: 0.4rem;
+}
+
+
+/*main_block_content2_button2 style*/
+.main_block_content2_button1 {
+    border: 2px solid #23BCCF;
+}
+
+/*main_block_content1_button1 style a*/
+.main_block_content2_button1 a {
+    color:  #23BCCF;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+
+
+
+
+/*main four*/
+
+.main_block_content3 {
+    border: 2px solid none;
+    color: black;
+    margin: 104px 0px 381px 120px;
+}
+
+/*main_block_content3_ style*/
+.main_block_content3_ {
+    border: 2px solid none;
+    padding: 2%;
+    margin: 2%;
+}
+
+/*main_block_content3_title style*/
+.main_block_content3_title {
+    border: 2px solid none;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    color: #006A76;
+    width: fit-content;
+}
+
+.main_block_content3_B .main_block_content3_title {
+    color: #1F3134;
+    font-size: 16px;
+    font-weight: 500;
+    width: 547px;
+    margin-top: -5%;
+}
+
+/*main_block_content3_paragraph style*/
+.main_block_content3_paragraph {
+    border: 2px solid none;
+    text-align: left;
+    font-weight: 500;
+    font-size: 28px;
+    color: #1F3134;
+    line-height: 38px;
+    width: 542px;
+}
+
+/*main_block_content3_button style*/ 
+.main_block_content3_button {
+    border: #191C1D 2px solid;
+    padding: 3% 7.5%;
+    width: 215px;
+    border-radius: 0.4rem;
+}
+
+
+/*main_block_content3_button3 style*/
+.main_block_content3_button3 {
+    border: 2px solid #23BCCF;
+}
+
+/*main_block_content3_button3 style a*/
+.main_block_content3_button1 a {
+    color:  #23BCCF;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+
+/* .main_block_conten3 form style*/
+.main_block_conten3 form {
+    border: 2px solid none;
+    color: black;
+    width: 100%;
+    margin-left: 0%;
+    height: fit-content;
+    margin-top: 1.5cm;
+    text-align: left;
+}
+
+form div label {
+    border: 2px solid none;
+    text-align: left;
+    color: #3B4665;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23.12px;
+}
+
+form div input {
+    border: 1px solid black;
+    text-align: left;
+    width: 420px;
+    height: 45px;
+    border-radius: 0.3rem;
+    font-size: medium;
+    text-justify: inter-word;
+}
+
+form div input[type="text"] {
+    background: linear-gradient(0deg, rgba(79, 216, 236, 0.14), rgba(79, 216, 236, 0.14)), #EDFCFF;
+    margin-top: 2%;
+}
+
+
+form div input[type="submit"] {
+    background:  #3B4665;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 2%;
+    cursor: pointer;
+    border: 2px solid #3B4665;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*this section is the main background color here, and are very important
+*/
+
+.main2 {
+    background: #EDFCFF;
+    height: 584px;
+}
+
+.main3 {
+    background: linear-gradient(0deg, rgba(79, 216, 236, 0.14), rgba(79, 216, 236, 0.14)), #191C1D;
+    height: 584px;
+}
+
+.main4 {
+    background: linear-gradient(0deg, rgba(79, 216, 236, 0.14), rgba(79, 216, 236, 0.14)), #EDFCFF;
+    height: 584px;
+}
+
+/*
+*this section is the main background color here, and are very important
+*/
+
+
 @media screen and (max-width: 600px) {
 
     .main1 img {
@@ -7,7 +341,8 @@
         height: 25vh;
     }
 
-    .main2 img {
+
+    .main3 img {
         border: 2px solid none;
         width: 100%;
         min-height: 35vh;

@@ -149,10 +149,13 @@
   }
 
   .content_button {
-    border: 2px solid white;
-    width: 290px;
-    border-radius: 0.2rem;
-    padding: 1% 0%;
+    border: white 2px solid;
+    padding: 1%;
+    width: 240px;
+    height: 23px;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    font-weight: 600;
   }
 
   .content_button a{
