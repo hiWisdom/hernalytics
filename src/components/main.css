@@ -14,7 +14,7 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
     padding: 2% 10%;
     justify-content: space-between;
 }
@@ -332,15 +332,16 @@ form div input[type="submit"] {
     border: 2px solid none;
     margin-top: 10%;
     height: fit-content;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 
-.main_block_content4 div .telescope {
+.main_block_content4 .telescope {
     border: 2px solid none;
-    position: absolute;
-    margin-top: -6%;
-    margin-left: -9.5%;
+    /* position: absolute; */
+    margin-top: -15%;
+    margin-left: -20.5%;
+    width: fit-content;
 }
 
 
@@ -348,6 +349,37 @@ form div input[type="submit"] {
 
 
 
+
+
+
+
+
+
+
+
+/*main6 style*/
+.main6 {
+    border: 2px solid red;
+    border: 2px solid black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    background-image: url("Get started.png");
+    background-size: cover;
+}
+
+
+
+
+
+/*countDownImage in main6 style*/ 
+.countDownImage {
+
+}
 
 
 
@@ -392,6 +424,21 @@ form div input[type="submit"] {
         border: 2px solid none;
         width: 100%;
         min-height: 35vh;
+    }
+
+}
+
+
+@media screen and (min-width: 1988px) {
+
+    .main_block_content_container {
+        border: 2px solid none;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 2% 10%;
+        justify-content: space-between;
     }
 
 }

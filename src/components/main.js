@@ -2,7 +2,6 @@ import React from 'react';
 import './../App.css';
 import './main.css';
 import Image1 from './Countdown frame.png';
-import Image2 from './Get started.png';
 import Image3 from './shutterstock_1615848271 1.png';
 import Image4 from './pngaaa 1.png';
 import{ FaChevronCircleDown } from 'react-icons/fa';
@@ -178,16 +177,15 @@ function Main() {
 
     <div className="main_block_content main_block_content4">
 
-      <div>
-        
-      <img src={Image3} className="countDownImage"/>
-  
-      <div className="telescope">      
-        <img src={Image4}/>
-      </div>
+        <div className="ballotBoxImageContainer">
+          <img src={Image3}/>
+        </div>
+
+        <div className="telescope">      
+          <img src={Image4}/>
+        </div>
 
       
-      </div>
 
     </div>
     
@@ -200,11 +198,8 @@ function Main() {
        
 
 
-      <br/>
-      <br/>
 
-       <div className="main_block main3">
-        <img src={Image2} className="countDownImage"/>
+       <div className="main_block main6">
        </div>
 
       </main>
