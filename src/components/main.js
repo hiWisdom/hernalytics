@@ -3,6 +3,8 @@ import './../App.css';
 import './main.css';
 import Image1 from './Countdown frame.png';
 import Image2 from './Get started.png';
+import Image3 from './shutterstock_1615848271 1.png';
+import Image4 from './pngaaa 1.png';
 import{ FaChevronCircleDown } from 'react-icons/fa';
 import{ FaChevronRight } from 'react-icons/fa';
 
@@ -156,7 +158,45 @@ function Main() {
 {/**main 4 end */}  
 
 
-       
+{/**main 5 begins */}       
+  <div className="main_block main_block_container main5">
+
+  <div className="main_block_content_container">
+
+  <div className="main_block_content main_block_content2">
+
+    <div className="main_block_content2_ main_block_content2_A">
+      <h2 className="main_block_content2_paragraph">Register or Join as a Verified Election Observer (VEO) Member</h2>
+    </div>
+
+    <div className="main_block_content2_ main_block_content2_B">
+      <p className="main_block_content2_title main_block_content3_title">Through the VEO Portal organisations can onboard accredited observers to observe and report an election...</p>
+      <p className="main_block_content2_button main_block_content4_button1"><a>Register <FaChevronRight /></a></p>
+    </div>
+
+  </div>
+
+    <div className="main_block_content main_block_content4">
+
+      <div>
+        
+      <img src={Image3} className="countDownImage"/>
+  
+      <div className="telescope">      
+        <img src={Image4}/>
+      </div>
+
+      
+      </div>
+
+    </div>
+    
+  </div>
+
+
+
+  </div>
+{/**main 5 end */}         
        
 
 

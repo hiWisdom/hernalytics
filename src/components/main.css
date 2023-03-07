@@ -15,6 +15,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    padding: 2% 10%;
     justify-content: space-between;
 }
 
@@ -25,7 +26,7 @@
 .main_block_content1 {
     border: 2px solid none;
     color: black;
-    margin: 24px 0px 381px 120px;
+    /* margin: 24px 0px 381px 120px; */
 }
 
 /*main_block_content1_ style*/
@@ -117,7 +118,7 @@
 .main_block_content2 {
     border: 2px solid none;
     color: black;
-    margin: 104px 0px 381px 120px;
+    margin: 40px 0px 0px 20px;
 }
 
 /*main_block_content2_ style*/
@@ -185,7 +186,7 @@
 .main_block_content3 {
     border: 2px solid none;
     color: black;
-    margin: 104px 0px 381px 120px;
+    margin-top:  110px;
 }
 
 /*main_block_content3_ style*/
@@ -266,6 +267,7 @@ form div label {
     line-height: 23.12px;
 }
 
+
 form div input {
     border: 1px solid black;
     text-align: left;
@@ -300,6 +302,50 @@ form div input[type="submit"] {
 
 
 
+/*main5 style*/
+
+
+/*.main_block_content4_button1 style*/ 
+.main_block_content4_button1 {
+    border: 2px solid #23BCCF;
+    padding: 3% 2.5%;
+    width: 118px;
+    border-radius: 0.4rem;
+}
+
+
+/*.main_block_content4_button1 style a*/
+.main_block_content4_button1 a {
+    color:  #23BCCF;
+    font-family: inherit;
+    font-weight: bolder;
+}
+
+
+.main_block_content3_title {
+    border: 2px solid none;
+    width: 504px !important;
+}
+
+
+.main_block_content4 div{
+    border: 2px solid none;
+    margin-top: 10%;
+    height: fit-content;
+    margin-left: 10%;
+}
+
+
+.main_block_content4 div .telescope {
+    border: 2px solid none;
+    position: absolute;
+    margin-top: -6%;
+    margin-left: -9.5%;
+}
+
+
+
+
 
 
 
@@ -318,7 +364,7 @@ form div input[type="submit"] {
     height: 584px;
 }
 
-.main3 {
+.main3, .main5 {
     background: linear-gradient(0deg, rgba(79, 216, 236, 0.14), rgba(79, 216, 236, 0.14)), #191C1D;
     height: 584px;
 }
