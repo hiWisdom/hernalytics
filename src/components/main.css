@@ -252,11 +252,12 @@
     border: 2px solid none;
     color: black;
     width: 100%;
-    margin-left: 0%;
+    margin-left: 10%;
     height: fit-content;
     margin-top: 1.5cm;
     text-align: left;
 }
+
 
 form div label {
     border: 2px solid none;
@@ -348,19 +349,155 @@ form div input[type="submit"] {
 
 
 
-
-
-
-
-
-
-
-
-
 /*main6 style*/
-.main6 {
-    border: 2px solid red;
-    border: 2px solid black;
+
+    .main6_Title {
+        border: 2px solid none;
+        width: 100%;
+    }
+
+    .main6_Title div {
+        border: 2px solid none;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main6_title_1 {
+        border: 2px solid none;
+        width: fit-content;
+        text-align: left;
+        color: #006874;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+    
+    .main6_title_2 {
+        border: 2px solid none;
+        width: fit-content;
+        text-align: left;
+        color: #191C1D;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    /*main6_body style*/
+    .main6_body {
+        border: 2px solid none;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0% 2.5% 5% 2.5%;
+        display: grid;
+        grid-template-columns: 590px 590px;
+        grid-column-gap: 2%;
+        grid-row-gap: 3.5%;
+    }
+
+    /*main6_box_content_container style*/
+    .main6_box_content_container {
+        border: 2px solid none;
+        margin-top: 5%;
+        color: white !important;
+        text-align: left;
+    }
+
+    /*main6_box_content_title style*/
+    .main6_box_content_title {
+        border: 2px solid none;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 10%;
+    }
+
+    /*main6_box_content_title main6_box_content_titleA style*/
+    .main6_box_content_title .main6_box_content_titleA{
+        border: 2px solid none;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Space Grotesk';
+        line-height: 18px;
+        width: 125px;
+        height:18px;
+    }
+
+
+
+    /*main6_box_content_title main6_box_content_titleA style*/
+    .main6_box_content_title .main6_box_content_titleB{
+        border: 2px solid none;
+        font-weight: 700;
+        font-size: 24.0031px;
+        line-height: 150%;
+        width: fit-content;
+        height:36px;
+    }
+
+    .main6_box_content {
+        border: 2px solid none;
+        width: 456px;
+        height: 60px;
+        font-weight: 500px;
+        font-size: 20px;
+    }
+
+    /**/
+    .main6_box_content_button {
+        border: 2px solid white;
+        width: fit-content;
+        width: 35px;
+        height: 19px;
+        font-weight: 700;
+        font-size: 14.7711px;
+        text-transform: uppercase;
+        padding: 2.5% 10%;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 10%;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+
+    /*main6_body style*/
+    .main6_box1, .main6_box2, .main6_box3, .main6_box4 {
+        border: 2px solid none;
+        height: 403px;
+        border-radius: 14px 14px 14px 14px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(box1Image.png);
+    }
+
+    /*main6_body style*/
+    .main6_box2 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(box2Image.png);
+    }
+
+    /*main6_body style*/
+    .main6_box3 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(box3Image.png);
+    }
+
+    /*main6_body style*/
+    .main6_box4 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(box4Image.png);
+    }
+    
+/*main6 style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main7 style*/
+.main7 {
+    border: 2px solid none;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -371,15 +508,10 @@ form div input[type="submit"] {
     background-image: url("Get started.png");
     background-size: cover;
 }
+/*main7 style*/
 
 
 
-
-
-/*countDownImage in main6 style*/ 
-.countDownImage {
-
-}
 
 
 
@@ -404,6 +536,12 @@ form div input[type="submit"] {
 .main4 {
     background: linear-gradient(0deg, rgba(79, 216, 236, 0.14), rgba(79, 216, 236, 0.14)), #EDFCFF;
     height: 584px;
+}
+
+.main6 {
+    background: white;
+    border: 2px solid none;
+    padding: 5% 0% 3.5% 0%;
 }
 
 /*
@@ -439,6 +577,13 @@ form div input[type="submit"] {
         width: 50%;
         padding: 2% 10%;
         justify-content: space-between;
+    }
+
+    .main6_Title div {
+        border: 2px solid none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
