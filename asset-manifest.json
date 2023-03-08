@@ -1,7 +1,7 @@
 {
-  "main.css": "/hernalytics/static/css/main.103e8ff9.chunk.css",
-  "main.js": "/hernalytics/static/js/main.10823f71.chunk.js",
-  "main.js.map": "/hernalytics/static/js/main.10823f71.chunk.js.map",
+  "main.css": "/hernalytics/static/css/main.ec79f46d.chunk.css",
+  "main.js": "/hernalytics/static/js/main.77beca68.chunk.js",
+  "main.js.map": "/hernalytics/static/js/main.77beca68.chunk.js.map",
   "static/js/1.2e76ef4f.chunk.js": "/hernalytics/static/js/1.2e76ef4f.chunk.js",
   "static/js/1.2e76ef4f.chunk.js.map": "/hernalytics/static/js/1.2e76ef4f.chunk.js.map",
   "static/js/2.d14f4965.chunk.js": "/hernalytics/static/js/2.d14f4965.chunk.js",
@@ -13,8 +13,8 @@
   "static/media/pngaaa 1.png": "/hernalytics/static/media/pngaaa 1.460d3f65.png",
   "static/media/header.css": "/hernalytics/static/media/Image10.d536f86e.png",
   "static/media/main.css": "/hernalytics/static/media/Get started.a9b9e3f0.png",
-  "static/css/main.103e8ff9.chunk.css.map": "/hernalytics/static/css/main.103e8ff9.chunk.css.map",
+  "static/css/main.ec79f46d.chunk.css.map": "/hernalytics/static/css/main.ec79f46d.chunk.css.map",
   "index.html": "/hernalytics/index.html",
-  "precache-manifest.18473caed545e9e2bc7ba699a9590b6c.js": "/hernalytics/precache-manifest.18473caed545e9e2bc7ba699a9590b6c.js",
+  "precache-manifest.00dc36c3375f712592f0281b4eccd916.js": "/hernalytics/precache-manifest.00dc36c3375f712592f0281b4eccd916.js",
   "service-worker.js": "/hernalytics/service-worker.js"
 }

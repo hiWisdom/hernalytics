@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "10823f71d3f04ec132d3",
-    "url": "/hernalytics/static/css/main.103e8ff9.chunk.css"
+    "revision": "77beca6863d906b9297f",
+    "url": "/hernalytics/static/css/main.ec79f46d.chunk.css"
   },
   {
-    "revision": "10823f71d3f04ec132d3",
-    "url": "/hernalytics/static/js/main.10823f71.chunk.js"
+    "revision": "77beca6863d906b9297f",
+    "url": "/hernalytics/static/js/main.77beca68.chunk.js"
   },
   {
     "revision": "2e76ef4f4b07ab805959",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/box1Image.74834b36.png"
   },
   {
-    "revision": "b8f25f2692f662ffdaba238a62811beb",
-    "url": "/hernalytics/static/media/box4Image.b8f25f26.png"
-  },
-  {
     "revision": "14a78d7fad54f2fa680fd2fd0bcdb58f",
     "url": "/hernalytics/static/media/box2Image.14a78d7f.png"
+  },
+  {
+    "revision": "b8f25f2692f662ffdaba238a62811beb",
+    "url": "/hernalytics/static/media/box4Image.b8f25f26.png"
   },
   {
     "revision": "ee1ea2fc07d64b08761febce54749797",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/Get started.a9b9e3f0.png"
   },
   {
-    "revision": "be183575a63c6b1eea07173537969baa",
+    "revision": "d4483fe58ad06141f81da399e8149f02",
     "url": "/hernalytics/index.html"
   }
 ];
