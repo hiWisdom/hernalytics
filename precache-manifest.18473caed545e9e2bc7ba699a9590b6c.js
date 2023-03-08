@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2aca5aa15547ffd5142e",
-    "url": "/hernalytics/static/css/main.96e793d1.chunk.css"
+    "revision": "10823f71d3f04ec132d3",
+    "url": "/hernalytics/static/css/main.103e8ff9.chunk.css"
   },
   {
-    "revision": "2aca5aa15547ffd5142e",
-    "url": "/hernalytics/static/js/main.2aca5aa1.chunk.js"
+    "revision": "10823f71d3f04ec132d3",
+    "url": "/hernalytics/static/js/main.10823f71.chunk.js"
   },
   {
     "revision": "2e76ef4f4b07ab805959",
@@ -36,27 +36,27 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/Image10.d536f86e.png"
   },
   {
-    "revision": "ee1ea2fc07d64b08761febce54749797",
-    "url": "/hernalytics/static/media/box3Image.ee1ea2fc.png"
-  },
-  {
-    "revision": "14a78d7fad54f2fa680fd2fd0bcdb58f",
-    "url": "/hernalytics/static/media/box2Image.14a78d7f.png"
+    "revision": "74834b36971453fd425eb679e2eec590",
+    "url": "/hernalytics/static/media/box1Image.74834b36.png"
   },
   {
     "revision": "b8f25f2692f662ffdaba238a62811beb",
     "url": "/hernalytics/static/media/box4Image.b8f25f26.png"
   },
   {
-    "revision": "74834b36971453fd425eb679e2eec590",
-    "url": "/hernalytics/static/media/box1Image.74834b36.png"
+    "revision": "14a78d7fad54f2fa680fd2fd0bcdb58f",
+    "url": "/hernalytics/static/media/box2Image.14a78d7f.png"
+  },
+  {
+    "revision": "ee1ea2fc07d64b08761febce54749797",
+    "url": "/hernalytics/static/media/box3Image.ee1ea2fc.png"
   },
   {
     "revision": "a9b9e3f09dcc9f13d7e1366ddb608342",
     "url": "/hernalytics/static/media/Get started.a9b9e3f0.png"
   },
   {
-    "revision": "9687475073ec6daf110742a8971d0bec",
+    "revision": "be183575a63c6b1eea07173537969baa",
     "url": "/hernalytics/index.html"
   }
 ];
