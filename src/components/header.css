@@ -214,9 +214,9 @@
     .topnav {
       overflow: hidden;
       border: 2px solid none;
+      background-color: #f9f9f9;
       position: relative;
-      margin-top: unset;
-      transform: translateY(-270%);
+      transform: translateY(-320%);
       width: 100%
     }
 

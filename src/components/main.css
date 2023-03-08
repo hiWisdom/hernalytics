@@ -564,6 +564,25 @@ form div input[type="submit"] {
         min-height: 35vh;
     }
 
+    
+    /*main7 style*/
+    .main7 {
+        border: 2px solid none;
+        min-height: 20vh !important;
+        display: flex;
+        flex-direction: unset;
+        align-items: unset;
+        justify-content: unset;
+        font-size: unset;
+        color: unset;
+        background-image: url("Get started.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    /*main7 style*/
+
+
 }
 
 
