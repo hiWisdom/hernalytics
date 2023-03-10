@@ -529,6 +529,7 @@ form div input[type="submit"] {
 
 .MapImages {
     width: 80%;
+    margin-top: unset;
 }
 
 
@@ -603,6 +604,8 @@ form div input[type="submit"] {
 }
 
 
+
+
 @media screen and (min-width: 1988px) {
 
     .main_block_content_container {
@@ -620,6 +623,19 @@ form div input[type="submit"] {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1788px) {
+
+
+    .MapImages {
+        border: 2px solid none;
+        width: 80%;
+        margin-top: -12%;
     }
 
 }
