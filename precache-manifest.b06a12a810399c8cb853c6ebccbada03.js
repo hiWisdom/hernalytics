@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c2dfa90629454b4791be",
-    "url": "/hernalytics/static/css/main.0791f585.chunk.css"
+    "revision": "21bee4ee0227a3356343",
+    "url": "/hernalytics/static/css/main.bd0af779.chunk.css"
   },
   {
-    "revision": "c2dfa90629454b4791be",
-    "url": "/hernalytics/static/js/main.c2dfa906.chunk.js"
+    "revision": "21bee4ee0227a3356343",
+    "url": "/hernalytics/static/js/main.21bee4ee.chunk.js"
   },
   {
     "revision": "7fc5741dfb5d402e95fa",
     "url": "/hernalytics/static/js/1.7fc5741d.chunk.js"
   },
   {
-    "revision": "dc321e40d671ac8a93a5",
-    "url": "/hernalytics/static/js/2.dc321e40.chunk.js"
+    "revision": "d7ffad21184643a97f86",
+    "url": "/hernalytics/static/js/2.d7ffad21.chunk.js"
   },
   {
     "revision": "2d50d3e26e19a78a384b",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/box4Image.b8f25f26.png"
   },
   {
-    "revision": "ee1ea2fc07d64b08761febce54749797",
-    "url": "/hernalytics/static/media/box3Image.ee1ea2fc.png"
-  },
-  {
     "revision": "74834b36971453fd425eb679e2eec590",
     "url": "/hernalytics/static/media/box1Image.74834b36.png"
+  },
+  {
+    "revision": "ee1ea2fc07d64b08761febce54749797",
+    "url": "/hernalytics/static/media/box3Image.ee1ea2fc.png"
   },
   {
     "revision": "a9b9e3f09dcc9f13d7e1366ddb608342",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/pngaaa 1.460d3f65.png"
   },
   {
-    "revision": "5e49e765f7a762f343266e476388057b",
-    "url": "/hernalytics/static/media/Frame1.5e49e765.png"
-  },
-  {
     "revision": "d536f86e17050ac486002ee407166e4a",
     "url": "/hernalytics/static/media/Image10.d536f86e.png"
+  },
+  {
+    "revision": "594581fd54ff3a4fa63fb1e980339741",
+    "url": "/hernalytics/static/media/Frame1.594581fd.png"
   },
   {
     "revision": "5ef37070cd176241954445ff4fb20117",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/hernalytics/static/media/Map3.5b8bf31d.png"
   },
   {
-    "revision": "0fefcb25a1dfe510c9b7d3c1fac7c9b4",
+    "revision": "93cbae9330c5510714839424b17653f3",
     "url": "/hernalytics/index.html"
   }
 ];
