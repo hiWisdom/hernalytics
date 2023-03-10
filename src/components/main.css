@@ -510,9 +510,26 @@ form div input[type="submit"] {
 }
 /*main7 style*/
 
+.mapDropDown {
+    border: 2px solid none;
+    width: fit-content;
+    float: right;
+}
 
+.mapDropDown  select{
+    border: 2px solid none;
+    background-color: #00344D;
+    color: white;
+    width: 113px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: large;
+}
 
-
+.MapImages {
+    width: 80%;
+}
 
 
 

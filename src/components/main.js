@@ -4,6 +4,7 @@ import './main.css';
 import Image1 from './Countdown frame.png';
 import Image3 from './shutterstock_1615848271 1.png';
 import Image4 from './pngaaa 1.png';
+import Map1 from './Frame1.png';
 import{ FaChevronCircleDown } from 'react-icons/fa';
 import{ FaChevronRight } from 'react-icons/fa';
 
@@ -44,10 +45,12 @@ function Main() {
       </div>
 
       <div className="main_block_content main_block_conten2">
-        <select>
-          <option>Nigeria <FaChevronCircleDown /></option>
-        </select>
-        Map
+        <div className="mapDropDown">
+          <select>
+            <option>Nigeria <FaChevronCircleDown /></option>
+          </select>
+        </div>
+        <img src={Map1} className="MapImages"/>
       </div>
       
     </div>
