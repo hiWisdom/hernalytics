@@ -213,11 +213,12 @@
 
     .topnav {
       overflow: hidden;
-      border: 2px solid none;
+      border: 2px solid blue;
       background-color: #f9f9f9;
       position: relative;
-      transform: translateY(-270%);
-      width: 100%
+      display: flex;
+      margin-top: -50%;
+      width: 100%;
     }
 
     .content_container {

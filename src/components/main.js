@@ -230,8 +230,6 @@ function Main() {
 
       </div>
 
-
-
       <div className="main6_box main6_box2">
 
         <div className="main6_box_content_container">
@@ -256,7 +254,6 @@ function Main() {
 
       </div>
 
-
       <div className="main6_box main6_box3">
 
         <div className="main6_box_content_container">
@@ -280,8 +277,6 @@ function Main() {
         </div>
 
       </div>
-
-
 
       <div className="main6_box main6_box4">
 
@@ -315,6 +310,24 @@ function Main() {
 
 {/**main 7 begins */}   
   <div className="main_block main7">
+
+    <div className="main7-container">
+
+      <div className="main7-container-1">
+        <h2>Subscribe to our newsletter</h2>
+        <p>Join a community of socially conscious people, get the latest updates.</p>
+      </div>
+
+      <div className="main7-container-2">
+        <p>Email Address</p>
+        <input type="email" className="" placeholder="Email Address"/>
+        <br/>
+        <button className="c_subscribe_btn">SUBSCRIBE NOW</button>
+      </div>
+
+    </div>
+    
+    
   </div>
 {/**main 7 end */}
 

@@ -2,12 +2,14 @@ import React from 'react';
 import logo from './../Hernalytics Full Logo Yellow@3x 1.png';
 import './header.css';
 import{ FaChevronCircleDown } from 'react-icons/fa';
+// import HeaderSlider from './HeaderSlider';
 
 function Header() {
   return (
     <div className="App">
 
       <header className="App-header">
+
 
           <div class="topnav" id="myTopnav">
 
@@ -79,6 +81,8 @@ function Header() {
         </div>
 
       </header>
+
+      
 
     </div>
   );

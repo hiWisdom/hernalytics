@@ -4,7 +4,7 @@ import React, {useEffect, useState} from 'react';
 
 //import stylesheet
 import './../App.css';
-import './main.css';
+import './header.css';
 
 //import slide-show component and function
 
@@ -15,13 +15,11 @@ import './main.css';
  * 
 **/
 
-import imageSlide from './imgdata'
+import landingImageSlide from './landingImg'
 
 
 //images
 
-//favi-icons
-import{ FaChevronCircleDown } from 'react-icons/fa';
 
 
 //Code your React Application below, by creating a constant class object named App
@@ -41,12 +39,11 @@ const App =  () => {
  * 
  * */
     const bgImagesStyle =  {
-        backgroundImage: `url(${imageSlide[currentState].url})`,
+        backgroundImage: `url(${landingImageSlide[currentState].url})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100%',
-        width: '710px',
-        marginTop: '2.5%'
+        width: '710px'
     }
 
     /**
@@ -63,7 +60,7 @@ const App =  () => {
                 setCurrentState(currentState + 1)
             }
 
-        }, 1200)
+        }, 1500)
         return () => clearTimeout(timer);
     }, 
     
@@ -103,23 +100,10 @@ const App =  () => {
  * 
  * */
     return (
-        <div className="main_block_content main_block_content2 mapContainer">
+        <div className="" style={bgImagesStyle} >
 
-
-
-        <div className="mapDropDown">
-          <select>
-            <option>Nigeria <FaChevronCircleDown /></option>
-          </select>
         </div>
-        {/* <img src={Map1} className="MapImages"/> */}
-        <div className="MapImages" style={bgImagesStyle} ></div>
 
-
-
-
-
-      </div>
     )
 }
 

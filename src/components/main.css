@@ -115,6 +115,12 @@
 
 /*main three*/
 
+.mapContainer {
+    border: 12px solid none !important;
+    margin-top: -12px !important;
+    padding: 0.5% !important;
+}
+
 .main_block_content2 {
     border: 2px solid none;
     color: black;
@@ -460,7 +466,7 @@ form div input[type="submit"] {
 
     /*main6_body style*/
     .main6_box1, .main6_box2, .main6_box3, .main6_box4 {
-        border: 2px solid none;
+        border: 2px solid nonef ;
         height: 403px;
         border-radius: 14px 14px 14px 14px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(box1Image.png);
@@ -498,7 +504,7 @@ form div input[type="submit"] {
 /*main7 style*/
 .main7 {
     border: 2px solid none;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -514,6 +520,7 @@ form div input[type="submit"] {
     border: 2px solid none;
     width: fit-content;
     float: right;
+    margin-top: -30px;
 }
 
 .mapDropDown  select{
@@ -533,6 +540,79 @@ form div input[type="submit"] {
 }
 
 
+/*main7-container style*/
+.main7-container {
+    border: 2px solid none;
+    color: white;
+    text-align: left;
+    padding: 1%;
+    margin-left: -50%;
+}
+
+/*main7-container style*/
+.main7-container-1 {
+    border: 2px solid none;
+    width: 100%;
+}
+
+/*main7-container style*/
+.main7-container-1 h2 {
+    border: 2px solid none;
+}
+
+/*main7-container style*/
+.main7-container-1 p {
+    border: 2px solid none;
+    font-size: large;
+    width: 80%;
+}
+
+/*main7-container style*/
+.main7-container-2 {
+    border: 2px solid none;
+}
+
+/*main7-container style*/
+.main7-container-2 p{
+    border: 2px solid none;
+    font-size: large;
+    width: fit-content;
+}
+
+/*main7-container style*/
+.main7-container-2 input{
+    border: 2px solid none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: -10%;
+}
+
+/*main7-container style*/
+.main7-container-2 input[type="email"]{
+    border: 2px solid white;
+    width: 100%;
+    background: transparent;
+    height: 50px;
+    color: white;
+    font-size: medium;
+}
+
+
+/*main7-container style*/
+.main7-container-2 .c_subscribe_btn{
+    border: 2px solid #EFC119;
+    width: 100%;
+    background: #EFC119;
+    border-radius: 8px;
+    padding: 12px 40px 12px 40px;
+    height: 50px;
+    width: 221px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5%;
+    cursor: pointer;
+}
 
 
 
@@ -542,6 +622,7 @@ form div input[type="submit"] {
 */
 
 .main2 {
+    border: 2px solid none;
     background: #EDFCFF;
     height: 584px;
 }
@@ -569,6 +650,20 @@ form div input[type="submit"] {
 
 @media screen and (max-width: 600px) {
 
+    /* * {
+        display: block !important;
+    } */
+
+    .main_block_container {
+        border: 2px solid none;
+        display: block;
+    }
+    
+    .main_block_content_container {
+        border: 2px solid none;
+        display: block;
+    }
+
     .main1 img {
         border: 2px solid none;
         width: 100%;
@@ -587,7 +682,7 @@ form div input[type="submit"] {
     .main7 {
         border: 2px solid none;
         min-height: 20vh !important;
-        display: flex;
+        display: block;
         flex-direction: unset;
         align-items: unset;
         justify-content: unset;
